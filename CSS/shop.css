@@ -1,0 +1,149 @@
+/* Header section  */
+.logo i {
+  font-size: 40px;
+  color: red;
+}
+.logo h1 {
+  color: #f28b00;
+  font-weight: bold;
+}
+.icons {
+  width: 100%;
+}
+.icons i {
+  font-size: 25px;
+}
+.icons span {
+  font-size: 20px;
+}
+.icons_box {
+  height: 50px;
+  width: 50px;
+  border: 2px solid silver;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.menu_row {
+  background-color: #f28b00;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+.search_bar span {
+  background-color: #f28b00;
+}
+
+/* Header Section end here */
+/* background_)image */
+.checkout_background_img {
+  height: 200px;
+  width: 100%;
+  background-image: url("../asset/images/check_back.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.checkout_background_img h5 {
+  color: #f28b00;
+}
+/* about services */
+.about_services_mobile {
+  display: flex;
+  gap: 5px;
+}
+.about_services {
+  width: 16%;
+  height: 130px;
+  background-color: #fff;
+  border-radius: 10px;
+  display: flex;
+  padding: 10px;
+  gap: 5px;
+  align-items: center;
+  box-shadow: 1px 1px 3px #f28b00;
+}
+.about_services div i {
+  color: #f28b00;
+  font-weight: 900;
+  font-size: 2em;
+}
+/* card images */
+.card_images img{
+  height: 70%;
+  transform: scale(0.8);
+  
+}
+.card_images img:hover{
+  transform: scale(1);
+  transition: 0.4s all ease-in;
+}
+/* card images section end here */
+/* Footer section */
+footer {
+  color: #6c757d;
+}
+.foot {
+  background-color: #343a40;
+  padding: 25px;
+}
+.fbox1 {
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  color: #f28b00;
+  font-weight: 900;
+  font-size: 2em;
+  background-color: #f92400;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer .fbox2 {
+  text-align: justify;
+}
+footer .fbox2 span {
+  background-color: #f28b00;
+}
+footer .fbox2 h4 {
+  color: #f28b00;
+}
+footer .fbox2 ul li {
+  list-style-type: none;
+}
+.main_foot_frenzy {
+  padding: 15px;
+  background-color: #f28b00;
+  color: white;
+}
+/* footer end */
+/* for Responsive */
+@media screen and (max-width: 480px) {
+  .laptop_header {
+    display: none;
+  }
+  .menu_row {
+    display: none !important;
+  }
+  .about_services {
+    width: 90%;
+    height: 180px;
+    margin-top: 10px;
+  }
+  .about_services_mobile {
+    gap: 0px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1440px) {
+  .mobile_header {
+    display: none;
+  }
+}

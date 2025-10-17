@@ -1,0 +1,129 @@
+/* Header section  */
+.logo i {
+  font-size: 40px;
+  color: red;
+}
+.logo h1 {
+  color: #f28b00;
+  font-weight: bold;
+}
+.icons {
+  width: 100%;
+}
+.icons i {
+  font-size: 25px;
+}
+.icons span {
+  font-size: 20px;
+}
+.icons_box {
+  height: 50px;
+  width: 50px;
+  border: 2px solid silver;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.menu_row {
+  background-color: #f28b00;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+.search_bar span {
+  background-color: #f28b00;
+}
+
+/* Header Section end here */
+/* background_)image */
+.checkout_background_img {
+  height: 200px;
+  width: 100%;
+  background-image: url("../asset/images/check_back.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.checkout_background_img h5 {
+  color: #f28b00;
+}
+/* 404 */
+.page_not_found{
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.page_not_found h1 i{
+  color: #f92400;
+  font-size: 72px;
+}
+.page_not_found h1{
+  font-size: 55px;
+}
+.page_not_found .btn{
+  background-color: #f28b00;
+}
+/* Footer section */
+footer {
+  color: #6c757d;
+}
+.foot {
+  background-color: #343a40;
+  padding: 25px;
+}
+.fbox1 {
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  color: #f28b00;
+  font-weight: 900;
+  font-size: 2em;
+  background-color: #f92400;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer .fbox2 {
+  text-align: justify;
+}
+footer .fbox2 span {
+  background-color: #f28b00;
+}
+footer .fbox2 h4 {
+  color: #f28b00;
+}
+footer .fbox2 ul li {
+  list-style-type: none;
+}
+.main_foot_frenzy {
+  padding: 15px;
+  background-color: #f28b00;
+  color: white;
+}
+/* footer end */
+/* for Responsive */
+@media screen and (max-width: 480px) {
+  .laptop_header {
+    display: none;
+  }
+  .menu_row {
+    display: none !important;
+  }
+  .page_not_found {
+    width: 80%;
+  }
+  
+}
+@media screen and (min-width: 768px) and (max-width: 1440px) {
+  .mobile_header {
+    display: none;
+  }
+}
