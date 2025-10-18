@@ -185,7 +185,7 @@ footer .fbox2 ul li {
 }
 /* footer end */
 /* for Responsive */
-@media screen and (man-width: 300px) and (max-width: 480px)  {
+@media screen and (min-width: 300px) and (max-width: 480px)  {
   .laptop_header {
     display: none;
   }
