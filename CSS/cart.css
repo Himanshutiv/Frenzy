@@ -105,7 +105,8 @@ footer .fbox2 ul li {
   list-style-type: none;
 }
 .main_foot_frenzy {
-  padding: 15px;
+  text-align: center;
+  padding: 8px;
   background-color: #f28b00;
   color: white;
 }
